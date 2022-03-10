@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 16px;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background: rgba(133, 133, 133, 0.5);
+    height: 100vh;
+}
+.contanier{
+    margin: 40px;
+    background-color:#3A3A3A ;
+    max-width: 481px;
+    width: 100%;
+    height: 580;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+.input_default{
+    border: none;
+    margin-top: 10px;
+    background-color: #C4C4C4;
+    border-radius: 16px;
+    max-width: 419px;
+    max-height: 44px;
+    width: 100%;
+    height: 44px;
+    padding: 1rem;
+}
+span{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+}
+.img_signup{
+    display: flex;
+    justify-content: center;
+}
+.img_signup img{
+    max-width: 118px;
+    max-height: 115px;
+    width: 100%;
+    height: 100%;
+}
+.email{
+    display: block;
+}
+
+.email img{
+    max-width: 26px;
+    width: 100%;
+    max-height: 26px;
+    height: 100%;
+}
+.user{
+    display: block;
+    margin-top: 20px;
+}
+.user img{
+    max-width: 26px;
+    width: 100%;
+    max-height: 26px;
+    height: 100%;
+}
+.password{
+    display: block;
+    margin-top: 20px;
+}
+.password img{
+    max-width: 26px;
+    width: 100%;
+    max-height: 26px;
+    height: 100%;
+}
+.termos{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    color: white;
+    align-items: center;
+}
+.send{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background:linear-gradient(180deg, #007AD6 0%, #00D6BC 100%);;
+    margin-top: 50px;
+    max-width: 122px;
+    width: 100%;
+    max-height: 47px;
+    height: 47px;
+    border: none;
+    border-radius: 16px;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+}
